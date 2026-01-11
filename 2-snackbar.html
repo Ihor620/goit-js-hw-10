@@ -13,7 +13,7 @@
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-Ba9Db7fs.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BYhA1FeX.css">
   </head>
   <body>
     <main>
@@ -28,17 +28,31 @@
 
           <fieldset class="fieldset-container">
             <legend>State</legend>
-            <label>
-              <input type="radio" name="state" value="fulfilled" required />
+            <label class="label-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="state"
+                value="fulfilled"
+                required
+              />
               Fulfilled
             </label>
-            <label>
-              <input type="radio" name="state" value="rejected" required />
+            <label class="label-btn">
+              <input
+                type="radio"
+                class="radio-btn"
+                name="state"
+                value="rejected"
+                required
+              />
               Rejected
             </label>
           </fieldset>
 
-          <button type="submit">Create notification</button>
+          <button type="submit" class="create-notification_btn">
+            Create notification
+          </button>
         </form>
       </div>
     </main>
